@@ -1,0 +1,44 @@
+.center{
+    display:flex;
+    justify-content: center;
+    /* align-items: center;
+    align-content: center; */
+}
+
+.grid-container{
+    width:300px;
+    height: 300px;
+    border: solid 1px black;
+    display:flex;
+    flex-wrap: wrap;
+    background-color:white;
+
+}
+
+.grid-container div{
+    width :20px;
+    height:20px;
+
+}
+
+.invader{
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.shooter{
+    background-color:rgb(71, 90, 0);
+    border-radius: 10px;
+}
+
+.lazer{
+    background-color:rgb(251, 255, 0);
+}
+
+.boom{
+    background-color: red;
+}
+
+body{
+    background-color : lightblue
+}
